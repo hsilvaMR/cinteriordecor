@@ -1,0 +1,112 @@
+[03-Nov-2020 15:26:26 Europe/Lisbon] PHP Fatal error:  Call to undefined function str_random() in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 15:26:28 Europe/Lisbon] PHP Fatal error:  Call to undefined function str_random() in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 15:26:29 Europe/Lisbon] PHP Fatal error:  Call to undefined function str_random() in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 16:11:39 Europe/Lisbon] PHP Warning:  require_once(phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:11:39 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:11:44 Europe/Lisbon] PHP Warning:  require_once(phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:11:44 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:11:45 Europe/Lisbon] PHP Warning:  require_once(phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:11:45 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:14:08 Europe/Lisbon] PHP Warning:  require_once(phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:14:08 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:14:10 Europe/Lisbon] PHP Warning:  require_once(phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:14:10 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 65
+[03-Nov-2020 16:16:22 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 20
+[03-Nov-2020 16:17:04 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 20
+[03-Nov-2020 16:20:01 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 21
+[03-Nov-2020 16:20:04 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 21
+[03-Nov-2020 16:21:41 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 20
+[03-Nov-2020 16:21:43 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 20
+[03-Nov-2020 16:25:17 Europe/Lisbon] PHP Warning:  require_once(admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:17 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:31 Europe/Lisbon] PHP Warning:  require_once(admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:31 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:36 Europe/Lisbon] PHP Warning:  require_once(admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:36 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:46 Europe/Lisbon] PHP Warning:  require_once(/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:46 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:50 Europe/Lisbon] PHP Warning:  require_once(/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:25:50 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:27 Europe/Lisbon] PHP Warning:  require_once(public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:27 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required 'public_html/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:47 Europe/Lisbon] PHP Warning:  require_once(/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:47 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/public_html/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:48 Europe/Lisbon] PHP Warning:  require_once(/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:26:48 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/public_html/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:09 Europe/Lisbon] PHP Warning:  require_once(/home/ciinteriordecor/public_html/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:28:09 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/home/ciinteriordecor/public_html/public_html/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:28:13 Europe/Lisbon] PHP Warning:  require_once(/home/ciinteriordecor/public_html/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:28:13 Europe/Lisbon] PHP Fatal error:  require_once(): Failed opening required '/home/ciinteriordecor/public_html/public_html/admin/funcao/phpmailer/class.phpmailer.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:28:34 Europe/Lisbon] PHP Notice:  Undefined variable: root in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:34 Europe/Lisbon] PHP Warning:  include(/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:34 Europe/Lisbon] PHP Warning:  include(): Failed opening '/public_html/admin/funcao/phpmailer/class.phpmailer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:35 Europe/Lisbon] PHP Notice:  Undefined variable: root in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:35 Europe/Lisbon] PHP Warning:  include(/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:35 Europe/Lisbon] PHP Warning:  include(): Failed opening '/public_html/admin/funcao/phpmailer/class.phpmailer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:41 Europe/Lisbon] PHP Notice:  Undefined variable: root in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:41 Europe/Lisbon] PHP Warning:  include(/public_html/admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:28:41 Europe/Lisbon] PHP Warning:  include(): Failed opening '/public_html/admin/funcao/phpmailer/class.phpmailer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(admin/funcao/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(): Failed opening 'admin/funcao/phpmailer/class.phpmailer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 14
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(admin/funcao/phpmailer/class.smtp.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(admin/funcao/phpmailer/class.smtp.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  include(): Failed opening 'admin/funcao/phpmailer/class.smtp.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_register/js_register.php on line 15
+[03-Nov-2020 16:29:12 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 23
+[03-Nov-2020 16:29:59 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 23
+[03-Nov-2020 16:31:13 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 23
+[03-Nov-2020 16:31:22 Europe/Lisbon] PHP Warning:  mail() has been disabled for security reasons in /home/ciinteriordecor/public_html/_register/js_register.php on line 23
+[03-Nov-2020 16:32:53 Europe/Lisbon] PHP Notice:  Undefined variable: paraNome in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[03-Nov-2020 16:32:53 Europe/Lisbon] PHP Notice:  Undefined variable: assunto in /home/ciinteriordecor/public_html/_register/js_register.php on line 43
+[03-Nov-2020 16:32:53 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 44
+[03-Nov-2020 16:32:53 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 16:32:58 Europe/Lisbon] PHP Notice:  Undefined variable: paraNome in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[03-Nov-2020 16:32:58 Europe/Lisbon] PHP Notice:  Undefined variable: assunto in /home/ciinteriordecor/public_html/_register/js_register.php on line 43
+[03-Nov-2020 16:32:58 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 44
+[03-Nov-2020 16:32:58 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 16:34:08 Europe/Lisbon] PHP Notice:  Undefined variable: paraNome in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[03-Nov-2020 16:34:08 Europe/Lisbon] PHP Notice:  Undefined variable: assunto in /home/ciinteriordecor/public_html/_register/js_register.php on line 43
+[03-Nov-2020 16:34:08 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 44
+[03-Nov-2020 16:34:08 Europe/Lisbon] PHP Notice:  Undefined variable: mensagem in /home/ciinteriordecor/public_html/_register/js_register.php on line 45
+[03-Nov-2020 16:34:55 Europe/Lisbon] PHP Notice:  Undefined variable: paraNome in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[03-Nov-2020 16:35:00 Europe/Lisbon] PHP Notice:  Undefined variable: paraNome in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[03-Nov-2020 16:50:10 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 37
+[03-Nov-2020 16:50:40 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:50:48 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 27
+[03-Nov-2020 16:51:04 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 29
+[03-Nov-2020 16:51:04 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 29
+[03-Nov-2020 16:51:05 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 29
+[03-Nov-2020 16:51:05 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 29
+[03-Nov-2020 16:51:18 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 39
+[03-Nov-2020 16:51:18 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 39
+[03-Nov-2020 16:51:18 Europe/Lisbon] PHP Notice:  Undefined variable: enviado in /home/ciinteriordecor/public_html/_register/js_register.php on line 39
+[03-Nov-2020 16:51:27 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:51:35 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:51:36 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:51:48 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:51:49 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 36
+[03-Nov-2020 16:53:01 Europe/Lisbon] PHP Fatal error:  Call to undefined method PHPMailer::setForm() in /home/ciinteriordecor/public_html/_register/js_register.php on line 35
+[11-Nov-2020 16:04:48 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[20-Nov-2020 20:44:35 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[24-Nov-2020 22:59:02 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[26-Nov-2020 00:45:52 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[06-Dec-2020 16:12:00 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[13-Dec-2020 19:13:07 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[21-Dec-2020 14:06:43 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[25-Dec-2020 11:22:10 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[08-Jan-2021 03:17:22 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[10-Jan-2021 00:44:38 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[10-Jan-2021 11:14:35 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[25-Feb-2021 03:25:47 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[15-Mar-2021 05:38:55 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[27-Mar-2021 08:36:42 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[25-Jun-2021 08:55:14 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[17-Jul-2021 13:50:29 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[05-Aug-2021 11:44:51 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[13-Aug-2021 03:35:37 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[02-Sep-2021 12:44:08 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[04-Sep-2021 20:46:04 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[14-Sep-2021 18:33:59 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[23-Sep-2021 14:03:56 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[25-Oct-2021 16:27:16 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15
+[27-Oct-2021 07:51:55 Europe/Lisbon] PHP Notice:  Undefined index: email in /home/ciinteriordecor/public_html/_register/js_registerEmail.php on line 15

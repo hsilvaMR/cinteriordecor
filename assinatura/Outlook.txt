@@ -1,0 +1,17 @@
+IMPLEMENTAR ASSINATURA NO OUTLOOK
+
+1º Passo
+	Windows + R
+2º Passo
+	%APPDATA%\Microsoft\Signatures
+3º Passo
+	Subtituir o ficheiro
+	
+ALTERNATIVA
+
+1º Passo
+	Ficheiros ocultos visiveis
+2º Passo
+	Pasta Pessoal -> AppData -> Roaming -> Microsoft -> Signatures
+3º Passo
+	Subtituir o ficheiro

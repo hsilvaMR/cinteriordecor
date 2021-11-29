@@ -1,0 +1,78 @@
+[16-Nov-2020 12:52:28 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 12:53:11 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 12:54:12 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/php4yBUR6' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[16-Nov-2020 12:58:06 Europe/Lisbon] PHP Warning:  imagejpeg(..//img/documentos_chat/0004002.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpSbFfQr' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[16-Nov-2020 12:59:35 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpAs4R8G' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[16-Nov-2020 14:48:46 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[16-Nov-2020 14:51:08 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpMSwUoP' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[16-Nov-2020 14:56:20 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[16-Nov-2020 14:59:41 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 15:08:56 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/php9mQBE5' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 31
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[16-Nov-2020 15:54:03 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[16-Nov-2020 15:55:25 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/admin/_conversa/novo.php on line 13

@@ -1,0 +1,3 @@
+[16-Nov-2020 10:54:15 Europe/Lisbon] PHP Notice:  Undefined index: pais in /home/ciinteriordecor/public_html/admin/_morada/novo.php on line 13
+[16-Nov-2020 10:56:18 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/admin/_morada/novo.php on line 19
+[16-Nov-2020 10:56:40 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/admin/_morada/novo.php on line 19

@@ -1,0 +1,147 @@
+[12-Nov-2020 12:42:15 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/js_avaliacao.php on line 18
+[12-Nov-2020 12:42:22 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/js_avaliacao.php on line 18
+[12-Nov-2020 16:29:36 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 38
+[12-Nov-2020 16:31:39 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:32:36 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:32:36 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:40:56 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:40:56 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:23 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:23 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:27 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:27 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:32 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:44:32 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 39
+[12-Nov-2020 17:45:56 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 11
+[12-Nov-2020 17:45:56 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 13
+[12-Nov-2020 17:45:56 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:45:56 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:46:47 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 11
+[12-Nov-2020 17:46:47 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 13
+[12-Nov-2020 17:46:47 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:46:47 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:58:53 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 54
+[12-Nov-2020 17:59:19 Europe/Lisbon] PHP Fatal error:  Call to undefined function upload_big() in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 67
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 54
+[12-Nov-2020 17:59:23 Europe/Lisbon] PHP Fatal error:  Call to undefined function upload_big() in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 67
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined index: assunto in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 13
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 17:59:38 Europe/Lisbon] PHP Notice:  Undefined index: imagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 46
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:32 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:36 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:39 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:43 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:46 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Notice:  Undefined index: mensagem in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 14
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:00:49 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:01:56 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:01:59 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:02:01 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:02:01 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:02:01 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:02:01 Europe/Lisbon] PHP Notice:  Undefined index: id_encomenda in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 12
+[12-Nov-2020 18:03:09 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:09 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:09 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:09 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:03:09 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:03:12 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:12 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:12 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:12 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:03:12 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:03:22 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:22 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:22 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:41 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:41 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:41 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:03:41 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:03:41 Europe/Lisbon] PHP Notice:  Undefined variable: data in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 43
+[12-Nov-2020 18:04:00 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:04:00 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:04:00 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:04:00 Europe/Lisbon] PHP Fatal error:  Call to undefined function upload_big() in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 67
+[12-Nov-2020 18:06:07 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:06:07 Europe/Lisbon] PHP Warning:  include(../funcao/upload_img.php): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:06:07 Europe/Lisbon] PHP Warning:  include(): Failed opening '../funcao/upload_img.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 3
+[12-Nov-2020 18:06:07 Europe/Lisbon] PHP Fatal error:  Call to undefined function upload_big() in /home/ciinteriordecor/public_html/_encomenda/chat.php on line 67
+[12-Nov-2020 18:08:03 Europe/Lisbon] PHP Warning:  imagejpeg(../../img/documentos_chat/0004001.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:08:03 Europe/Lisbon] PHP Warning:  imagejpeg(../../img/documentos_chat/0004002.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:10:03 Europe/Lisbon] PHP Warning:  imagejpeg(/public_html/img/documentos_chat//img/documentos_chat/0004003.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:11:02 Europe/Lisbon] PHP Warning:  imagejpeg(public_html/img/documentos_chat//img/documentos_chat/0004004.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:11:11 Europe/Lisbon] PHP Warning:  imagejpeg(public_html/img/documentos_chat//img/documentos_chat/0004005.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:12:37 Europe/Lisbon] PHP Warning:  imagejpeg(public_html//img/documentos_chat/0004006.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52
+[12-Nov-2020 18:13:37 Europe/Lisbon] PHP Warning:  imagejpeg(/public_html//img/documentos_chat/0004007.jpg): failed to open stream: No such file or directory in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 52

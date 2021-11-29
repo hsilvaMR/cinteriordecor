@@ -1,0 +1,39 @@
+[17-Nov-2020 09:55:05 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 09:55:51 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 09:57:16 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 09:59:00 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 09:59:34 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:01:13 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:01:30 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:01:43 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:01:56 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:02:15 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:04:09 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:05:59 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:06:34 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:08:12 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:10:23 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:10:24 Europe/Lisbon] PHP Parse error:  syntax error, unexpected '}' in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 29
+[17-Nov-2020 10:11:11 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:13:02 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:24:55 Europe/Lisbon] PHP Notice:  Undefined variable: gratis in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 44
+[17-Nov-2020 10:28:09 Europe/Lisbon] PHP Notice:  Undefined variable: gratis in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 44
+[17-Nov-2020 10:28:41 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:28:41 Europe/Lisbon] PHP Notice:  Undefined variable: valor_desconto in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 44
+[17-Nov-2020 10:28:41 Europe/Lisbon] PHP Notice:  Undefined variable: valor_condicao in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 44
+[17-Nov-2020 10:28:53 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 10:28:53 Europe/Lisbon] PHP Notice:  Undefined variable: valor_desconto in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 40
+[17-Nov-2020 10:28:53 Europe/Lisbon] PHP Notice:  Undefined variable: valor_condicao in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 40
+[17-Nov-2020 11:07:11 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/admin/_vales/atribuir.php on line 15
+[17-Nov-2020 11:07:25 Europe/Lisbon] PHP Notice:  Undefined variable: id in /home/ciinteriordecor/public_html/admin/_vales/atribuir.php on line 15
+[17-Nov-2020 14:17:07 Europe/Lisbon] PHP Notice:  Undefined variable: gratis in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 41
+[17-Nov-2020 14:19:15 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[17-Nov-2020 14:19:15 Europe/Lisbon] PHP Notice:  Undefined variable: valor_desconto in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 45
+[17-Nov-2020 14:19:15 Europe/Lisbon] PHP Notice:  Undefined variable: valor_condicao in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 45
+[23-Apr-2021 11:00:21 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[23-Apr-2021 11:00:21 Europe/Lisbon] PHP Notice:  Undefined variable: valor_desconto in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 45
+[23-Apr-2021 11:00:21 Europe/Lisbon] PHP Notice:  Undefined variable: valor_condicao in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 45
+[23-Apr-2021 11:02:13 Europe/Lisbon] PHP Notice:  Undefined variable: gratis in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 41
+[21-Jun-2021 12:05:35 Europe/Lisbon] PHP Notice:  Undefined index: oferta in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 13
+[21-Jun-2021 12:05:35 Europe/Lisbon] PHP Notice:  Undefined variable: valor_desconto in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 41
+[21-Jun-2021 12:05:35 Europe/Lisbon] PHP Notice:  Undefined variable: valor_condicao in /home/ciinteriordecor/public_html/admin/_vales/novo.php on line 41

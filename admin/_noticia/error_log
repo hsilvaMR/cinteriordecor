@@ -1,0 +1,13 @@
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error:  in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 5
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagecreatefromjpeg(): '/tmp/phpCKBTB2' is not a valid JPEG file in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 5
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 9
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 10
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 12
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 13
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 16
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 17
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 18
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 20
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagejpeg() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 21
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 24
+[13-Mar-2018 11:40:59 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 25

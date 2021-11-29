@@ -1,0 +1,55 @@
+[05-Nov-2020 10:36:06 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:36:25 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:37:12 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:38:17 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:45:21 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:45:36 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 53
+[05-Nov-2020 10:56:54 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 54
+[05-Nov-2020 10:57:27 Europe/Lisbon] PHP Parse error:  syntax error, unexpected end of file in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 54
+[05-Nov-2020 11:15:29 Europe/Lisbon] PHP Notice:  Undefined index: USER in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 49
+[05-Nov-2020 11:15:29 Europe/Lisbon] PHP Notice:  Undefined variable: id_user in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 61
+[05-Nov-2020 16:14:46 Europe/Lisbon] PHP Notice:  Undefined variable: endereco in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:14:46 Europe/Lisbon] PHP Notice:  Undefined variable: codigo_postal in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:14:46 Europe/Lisbon] PHP Notice:  Undefined variable: telefone_fixo in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:15:26 Europe/Lisbon] PHP Notice:  Undefined variable: endereco in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:15:26 Europe/Lisbon] PHP Notice:  Undefined variable: codigo_postal in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:15:26 Europe/Lisbon] PHP Notice:  Undefined variable: telefone_fixo in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 66
+[05-Nov-2020 16:16:48 Europe/Lisbon] PHP Notice:  Undefined variable: endereco in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[05-Nov-2020 16:16:48 Europe/Lisbon] PHP Notice:  Undefined variable: codigo_postal in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[05-Nov-2020 16:16:48 Europe/Lisbon] PHP Notice:  Undefined variable: telefone_fixo in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[05-Nov-2020 16:17:03 Europe/Lisbon] PHP Notice:  Undefined variable: endereco in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[05-Nov-2020 16:17:03 Europe/Lisbon] PHP Notice:  Undefined variable: codigo_postal in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[05-Nov-2020 16:17:03 Europe/Lisbon] PHP Notice:  Undefined variable: telefone_fixo in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 67
+[06-Nov-2020 23:01:31 Europe/Lisbon] PHP Notice:  Undefined variable: retorna in /home/ciinteriordecor/public_html/_morada/js_apagar.php on line 17
+[09-Nov-2020 14:50:13 Europe/Lisbon] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 18
+[09-Nov-2020 14:50:20 Europe/Lisbon] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 18
+[09-Nov-2020 14:51:16 Europe/Lisbon] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 18
+[09-Nov-2020 14:51:31 Europe/Lisbon] PHP Notice:  Undefined variable: retorna in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 8
+[09-Nov-2020 14:51:47 Europe/Lisbon] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 18
+[09-Nov-2020 15:58:57 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[09-Nov-2020 15:59:03 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[09-Nov-2020 15:59:09 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[09-Nov-2020 15:59:17 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[09-Nov-2020 15:59:24 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[10-Nov-2020 18:16:39 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[10-Nov-2020 18:16:48 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 10:35:07 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 14:53:11 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 15:04:36 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 15:05:30 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 15:09:21 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 15:09:45 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[18-Nov-2020 15:10:44 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[19-Nov-2020 12:44:15 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[20-Nov-2020 15:00:35 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[20-Nov-2020 15:03:35 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[21-Nov-2020 14:24:27 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[22-Nov-2020 22:32:18 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[30-Nov-2020 15:35:43 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[30-Nov-2020 15:35:52 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[30-Nov-2020 15:36:10 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[06-Dec-2020 15:30:54 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[12-Mar-2021 22:09:46 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[12-Mar-2021 22:10:03 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[11-Aug-2021 07:29:39 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14
+[11-Aug-2021 07:29:49 Europe/Lisbon] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/_morada/js_novo.php on line 14

@@ -1,0 +1,45 @@
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Notice:  Undefined variable: imgem in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 35
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Notice:  Undefined variable: imgem in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 36
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  Division by zero in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 42
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagecreatetruecolor(): Invalid image dimensions in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 44
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagesavealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 47
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagecolorallocatealpha() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 48
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagefill() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 49
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Notice:  Undefined variable: imgem in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagecopyresampled() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 51
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Notice:  Undefined variable: imgem in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 55
+[17-Nov-2020 16:27:35 Europe/Lisbon] PHP Warning:  imagedestroy() expects parameter 1 to be resource, boolean given in /home/ciinteriordecor/public_html/admin/funcao/upload_img.php on line 56
+[03-Dec-2020 16:28:51 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 14
+[03-Dec-2020 16:29:33 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 14
+[03-Dec-2020 16:30:31 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 15
+[03-Dec-2020 16:30:57 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 15
+[03-Dec-2020 16:31:32 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 15
+[03-Dec-2020 16:31:54 Europe/Lisbon] PHP Warning:  Invalid argument supplied for foreach() in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 15
+[03-Dec-2020 16:32:44 Europe/Lisbon] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 20
+[03-Dec-2020 16:40:40 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 23
+[03-Dec-2020 16:40:59 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 23
+[03-Dec-2020 16:41:47 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 23
+[03-Dec-2020 16:43:06 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 23
+[03-Dec-2020 16:43:38 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 23
+[03-Dec-2020 16:44:32 Europe/Lisbon] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:47:50 Europe/Lisbon] PHP Notice:  Undefined variable: quantidade in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:48:03 Europe/Lisbon] PHP Notice:  Trying to get property of non-object in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:48:18 Europe/Lisbon] PHP Notice:  Undefined property: mysqli_result::$quantidade in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:48:34 Europe/Lisbon] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:48:57 Europe/Lisbon] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 25
+[03-Dec-2020 16:49:43 Europe/Lisbon] PHP Notice:  Undefined variable: quantidade in /home/ciinteriordecor/public_html/admin/_venda/apagar.php on line 26
+[06-May-2021 12:57:25 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[06-May-2021 12:57:25 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
+[06-May-2021 15:06:04 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[06-May-2021 15:06:04 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
+[15-Jun-2021 10:23:36 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[15-Jun-2021 10:23:36 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
+[02-Sep-2021 15:42:06 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[02-Sep-2021 15:42:06 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
+[24-Nov-2021 18:59:35 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[24-Nov-2021 18:59:35 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
+[26-Nov-2021 14:56:41 Europe/Lisbon] PHP Notice:  Undefined variable: msg in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 257
+[26-Nov-2021 14:56:41 Europe/Lisbon] PHP Notice:  Undefined variable: img in /home/ciinteriordecor/public_html/admin/_venda/etapa.php on line 273
