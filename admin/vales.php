@@ -64,7 +64,7 @@
 
 
 
-										if (($risca % 2) == 0) {
+										if (($risca % 2) == 0) {  // verificar paridade é par 
 											$classe = "tabelaFundoP";
 										} else {
 											$classe = "tabelaFundoI";
@@ -123,7 +123,8 @@
 				</div>
 			</div>
 
-			<? include '_voucherID.php'; ?>
+			<!-- VOUCHER UNICO -->
+			<? include '_voucherUnico.php'; ?>
 		</div>
 	</article>
 	<? include '_footer.php'; ?>
