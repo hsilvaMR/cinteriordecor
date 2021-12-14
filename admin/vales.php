@@ -28,8 +28,6 @@
 							<a href="">Vales de Desconto</a>
 				</div>
 			</div>
-
-
 			<div class="linhaScroll">
 				<div class="coluna1">
 					<div class="corpo tabelaBorda">
