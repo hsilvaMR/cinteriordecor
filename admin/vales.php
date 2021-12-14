@@ -175,6 +175,11 @@
 				],
 			});
 		});
+
+		// GERIR TABELA VOUCHER UNICO
+		$(document).ready(function() {
+			$('#sortable1').dataTable();
+		});
 	</script>
 </body>
 

@@ -1,9 +1,9 @@
 <div class="linhaScroll" style="margin-top: 15px;">
     <div class="coluna1">
         <div class="corpo tabelaBorda">
-            <div class="tabelaHead">VAUCHER UNICO</div>
+            <div class="tabelaHead">VAUCHER UNICO <label for="" style="background-color: red;"> Em Densevolvimento ! </label></div>
             <div class="linhaScroll">
-                <table id="sortable" class="listagem">
+                <table id="sortable1" class="listagem">
                     <thead>
                         <tr>
                             <th class="none"></th>
@@ -15,6 +15,7 @@
                             <th>Validade</th>
                             <th>Tipo</th>
                             <th>Status</th>
+                            <th style="text-align: center;">Ação</th>
                         </tr>
                     </thead>
                     <tbody>
