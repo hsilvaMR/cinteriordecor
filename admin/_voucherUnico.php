@@ -45,12 +45,12 @@
                                 <td><? echo $nome ?></td>
                                 <td><? echo $descricao ?></td>
                                 <td><? echo $codigo ?></td>
-                                <td><? echo $valor ?></td>
+                                <td><? echo $valor . "€" ?></td>
                                 <td><? echo $validade ?></td>
                                 <td><? echo $tipo ?></td>
                                 <td><? echo $status ?> </td>
                                 <td>
-                                    <a href="/admin/vale/<? echo $id; ?>" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
+                                    <a href="#<? echo $id; ?>" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
                                     <span class="opcoes" onclick="mostrar('APAGAR',<? echo $id; ?>);"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
                                 </td>
                             </tr>
@@ -58,7 +58,7 @@
                     </tbody>
                 </table>
             </div>
-            <button class="btV margin-top20 floatr" onClick="window.location.href='/admin/vale';">ADICIONAR NOVO</button>
+            <button class="btV margin-top20 floatr" onClick="window.location.href='/admin/vale';" style="background-color: greenyellow;">ADICIONAR NOVO</button>
             <div class="clear"></div>
         </div>
     </div>

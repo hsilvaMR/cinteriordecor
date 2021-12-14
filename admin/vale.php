@@ -272,7 +272,6 @@
 			}));
 		});
 
-
 		function historyChanged() {
 			var historySelectList = $('select#history');
 			var selectedValue = $('option:selected', historySelectList).val();
