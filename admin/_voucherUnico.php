@@ -12,7 +12,7 @@
                             <th>Descrição</th>
                             <th>Codigo</th>
                             <th>Valor</th>
-                            <th>Validade</th>
+                            <th> Periodo Vigente</th>
                             <th>Tipo</th>
                             <th>Status</th>
                             <th style="text-align: center;">Ação</th>
@@ -29,7 +29,8 @@
                             $descricao = $linha["descricao"];
                             $codigo = $linha["codigo"];
                             $valor = $linha["valor"];
-                            $validade = $linha["validade"];
+                            $inicio = $linha["inicio"];
+                            $fim = $linha["fim"];
                             $tipo = $linha["tipo"];
                             $status = $linha["status"];
 
@@ -46,7 +47,7 @@
                                 <td><? echo $descricao ?></td>
                                 <td><? echo $codigo ?></td>
                                 <td><? echo $valor . "€" ?></td>
-                                <td><? echo $validade ?></td>
+                                <td><? echo $inicio . " a " . $fim ?></td>
                                 <td><? echo $tipo ?></td>
                                 <td><? echo $status ?> </td>
                                 <td>
