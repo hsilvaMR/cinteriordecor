@@ -243,17 +243,52 @@
     function setingDateFim_V3() {
 
         var dataInicio = $.datepicker.formatDate("yy-mm-dd", $("#CALENDARIO").datepicker("getDate"))
+        var sliceDay = dataInicio.slice(7, 8)
+
+        alert(sliceDay)
+        var newdAY = parseInt(sliceDay)
+        alert(newdAY)
+        newdAY = newdAY + 1;
+        alert(newdAY)
+        var newDate = dataInicio.substring(0, dataInicio.length - 2);
+        newDate = newDate + newdAY.toString()
+        alert(newDate)
 
         if (dataInicio != "") {
 
             // dataInicio = $.datepicker.parseDate( dateFormat, dataInicio);
             dataInicio = dataInicio.replace("-", ",");
             $("#CALENDARIO2").datepicker('option', {
-                minDate: new Date(dataInicio),
+                minDate: new Date(newDate),
                 maxDate: '2Y'
             });
         }
 
+    }
+
+    function settingCalendario() {
+
+        var dataInicio = $.datepicker.formatDate("yy-mm-dd", $("#CALENDARIO").datepicker("getDate"))
+        var novaData = settingDia(dataInicio)
+
+        if (novaData != "") {
+
+            //dataInicio = dataInicio.replace("-", ",");
+            $("#CALENDARIO2").datepicker('option', {
+                minDate: new Date(novaData),
+                maxDate: '2Y'
+            });
+        }
+    }
+
+    function settingDia(date) {
+
+        var dia = date.slice(8) // captura o dia na string data 
+        var novoDia = parseInt(dia) + 1 // acrescenta 1 dia,  no dia capturado
+        var novaData = date.substring(0, date.length - 2); // remove o dia na data atual 
+        novaData = novaData + novoDia.toString() // acrescenta um dia a mais , na nova data 
+
+        return novaData;
     }
 </script>
 
