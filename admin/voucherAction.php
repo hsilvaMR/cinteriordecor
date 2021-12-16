@@ -84,7 +84,7 @@
                                 <div class="grupo">
                                     <div class="grupoEsq">Valor:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="valor" value="<? echo $nome ?>" autofocus placeholder='Valor do voucher'>
+                                        <input type="text" class="inP" maxlength="6" name="valor" onkeypress="return onlyNumberKey(event)" name="valor" value="<? echo $nome ?>" autofocus placeholder='Valor do voucher'>
                                     </div>
                                 </div>
 
@@ -284,6 +284,23 @@
                 }
             }
         });
+    }
+
+    // only number
+    function onlyNumberKey(evt) {
+
+        // Only ASCII character in that range allowed
+        var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+            return false;
+        return true;
+    }
+
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
     }
 </script>
 
