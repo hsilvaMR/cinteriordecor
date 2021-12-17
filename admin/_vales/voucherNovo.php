@@ -17,20 +17,33 @@ session_start();
     $fim = $_POST["fim"];
     $tipo = $_POST["tipo"];
     $status = "valido";
-    $response = "";
+    $response = ['error'=>'init', 'result'=>'init'];
+    
+    if(empty($nome) || empty($valor)  || empty($inicio) || empty($fim) || empty($codigo) ){
+        
+         $response['error']= "empty";
+    }
+    else{
+        
+         $query = mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE codigo='$codigo' LIMIT 1");
+        $row = mysqli_fetch_assoc($query);
 
-    $query = mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE id='$codigo'");
+        if (empty( $row['codigo'])) {
 
-    if (empty($query)) {
-
-        mysqli_query($lnk, "INSERT INTO voucher_unico(nome,descricao,codigo,valor,inicio,tipo,status,fim)
+                 mysqli_query($lnk, "INSERT INTO voucher_unico(nome,descricao,codigo,valor,inicio,tipo,status,fim)
                   VALUES ('$nome','$descricao','$codigo','$valor','$inicio','$tipo','$status','$fim')");
-        $response = "adicionado";
+                  
+                $response['result']= "adicionado";
+        }
+        else {
+        
+        $response['error']= "existe";
+        }
+       
+      
     }
-    else {
-        $response = "existe";
-    }
-    echo $response;
+
+    echo json_encode($response);
 }
 
 function editarVoucher()
@@ -62,7 +75,7 @@ function removerVoucher()
     }
     else{
         
-        $response = "error query".$id;
+        $response = "error query";
     }
 
 

@@ -1,7 +1,7 @@
 <div class="linhaScroll" style="margin-top: 15px;">
     <div class="coluna1">
         <div class="corpo tabelaBorda">
-            <div class="tabelaHead">VAUCHER UNICO <label for="" style="background-color: red;"> Em Densevolvimento ! </label></div>
+            <div class="tabelaHead" style="background: #FFC300;">VOUCHER UNICO Em Densevolvimento ... </div>
             <div class="linhaScroll">
                 <table id="sortable1" class="listagem">
                     <thead>
@@ -46,20 +46,20 @@
                                 <td><? echo $nome ?></td>
                                 <td><? echo $descricao ?></td>
                                 <td><? echo $codigo ?></td>
-                                <td><? echo $valor . "€" ?></td>
+                                <td><? echo $valor . " € " ?></td>
                                 <td><? echo $inicio . " a " . $fim ?></td>
                                 <td><? echo $tipo ?></td>
                                 <td><? echo $status ?> </td>
-                                <td>
-                                    <a href="#<? echo $id; ?>" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
-                                    <span class="opcoes" onclick="mostrar('APAGAR',<? echo $id; ?>);"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
+                                <td style="text-align: center;">
+                                    <a href="#" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
+                                    <span class="opcoes"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
                                 </td>
                             </tr>
                         <? } ?>
                     </tbody>
                 </table>
             </div>
-            <button class="btV margin-top20 floatr" onClick="window.location.href='/admin/vale';" style="background-color: greenyellow;">ADICIONAR NOVO</button>
+            <button class="btV margin-top20 floatr" onClick="window.location.href='/admin/voucherAction.php';" style="background: #33FFB8;">Novo Voucher</button>
             <div class="clear"></div>
         </div>
     </div>

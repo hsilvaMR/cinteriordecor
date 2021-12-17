@@ -53,7 +53,8 @@
                 <div class="coluna1">
                     <div class="corpo">
 
-                        <form id="FORMULARIO_" method="post" enctype="multipart/form-data">
+                        <form id="formVoucher" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="call" value="add">
                             <input type="hidden" name="id" value="<? if ($existe) {
                                                                         echo $id_url;
                                                                     } ?>">
@@ -62,34 +63,34 @@
                                 <div class="grupo">
                                     <div class="grupoEsq">Nome:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="nome" value="<? echo $nome ?>" autofocus placeholder='Designação Voucher'>
+                                        <input type="text" class="inP" id="idName" name="nome" value="<? echo $nome ?>" autofocus placeholder='Designação Voucher'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Descrição:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="nome" value="<? echo $nome ?>" autofocus placeholder='Descrição'>
+                                        <input type="text" class="inP" id="descrID" name="descricao" value="<? echo $nome ?>" autofocus placeholder='Descrição'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Código:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="nome" value="<? echo $nome ?>" autofocus placeholder='Código do Voucher'>
+                                        <input type="text" class="inP" id="cdVouhcer" name="codigo" readonly value="<? echo $nome ?>" autofocus placeholder='Código do Voucher'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Valor:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="nome" value="<? echo $nome ?>" autofocus placeholder='Valor do voucher'>
+                                        <input type="text" class="inP" maxlength="6" name="valor" onkeypress="return onlyNumberKey(event)" value="<? echo $nome ?>" autofocus placeholder='Valor do voucher'>
                                     </div>
                                 </div>
                                 <div class="grupo">
                                     <div class="grupoEsq">Incio:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="inicio" id="CALENDARIO" maxlength="10" value="" onchange="setingDateFim()">
+                                        <input type="text" class="inP" name="inicio" id="CALENDARIO" maxlength="10" value="" onchange="settingCalendario()">
                                     </div>
                                 </div>
 
@@ -106,7 +107,7 @@
                                     <div class="grupoEsq">Tipo:</div>
                                     <div class="grupoDir">
 
-                                        <select id="history" class="seL" name="oferta" onchange="historyChanged(this);">
+                                        <select id="history" class="seL" name="tipo">
                                             <option class="selS" disabled selected>Tipo de Voucher</option>
                                             <option class="selS" value="vale" <? if ($tipo == 'vale') {
                                                                                     echo "selected";
@@ -154,7 +155,7 @@
 
     <script>
         $(function() {
-
+            // generateVoucher()
             $("#CALENDARIO").datepicker({
 
                 dateFormat: 'yy-mm-dd',
@@ -174,82 +175,152 @@
         });
 
 
-
-        function mudaCal1(input) {
-            var inicio = input.value;
-            inicio = inicio.replace("-", ",");
-            inicio = inicio.replace("-", ",");
-            $('#CALENDARIO2').datepicker('option', 'minDate', new Date(inicio));
-        }
-
-        function mudaCal2(input) {
-            var fim = input.value;
-            fim = fim.replace("-", ",");
-            fim = fim.replace("-", ",");
-            $('#CALENDARIO').datepicker('option', 'maxDate', new Date(fim));
-        }
-
-
-        function setingDateFim() {
+        function setingDateFim_V4() {
 
             var dataInicio = $.datepicker.formatDate("yy-mm-dd", $("#CALENDARIO").datepicker("getDate"))
-            //dataInicio= $('#CALENDARIO').datepicker("setDate", dataInicio.getDate() + 1 );
-
+            var sliceDay = dataInicio.slice(8)
+            alert(sliceDay)
+            var newdAY = parseInt(sliceDay)
+            alert(newdAY)
+            newdAY = newdAY + 1;
+            alert(newdAY)
+            var newDate = dataInicio.substring(0, dataInicio.length - 2);
+            newDate = newDate + newdAY.toString()
+            alert(newDate)
             if (dataInicio != "") {
-
-                dataInicio = dataInicio.replace("-", ",");
-                //dataInicio = dataInicio.replace("-", ",");
-                alert(dataInicio)
-                $("#CALENDARIO2").datepicker('option', {
-                    minDate: new Date(dataInicio),
-                    maxDate: '2Y'
-                });
-
-            }
-
-        }
-
-        function setingDateFim_V3() {
-
-            var dateIni = $('#CALENDARIO').datepicker('getDate');
-            var date2 = new Date('yy-mm-dd')
-            date2 = date2.getTime()
-            date2.setDate(dateIni.getDate() + 1)
-
-            // var dataInicio = $.datepicker.formatDate("yy-mm-dd",date2)
-
-            if (date2 != "") {
-
                 // dataInicio = $.datepicker.parseDate( dateFormat, dataInicio);
-                date2 = date2.replace("-", ",");
+                dataInicio = dataInicio.replace("-", ",");
                 $("#CALENDARIO2").datepicker('option', {
-                    minDate: new Date(date2),
+                    minDate: new Date(newDate),
                     maxDate: '2Y'
                 });
             }
+        }
 
+        // setting calendario and day
+        function settingCalendario() {
+            var dataInicio = $.datepicker.formatDate("yy-mm-dd", $("#CALENDARIO").datepicker("getDate"))
+            var novaData = settingDia(dataInicio)
+            if (novaData != "") {
+                //dataInicio = dataInicio.replace("-", ",");
+                $("#CALENDARIO2").datepicker('option', {
+                    minDate: new Date(novaData),
+                    maxDate: '2Y'
+                });
+            }
+        }
+
+        function settingDia(date) {
+            var dia = date.slice(8) // captura o dia na string data 
+            var novoDia = parseInt(dia) + 1 // acrescenta 1 dia,  no dia capturado
+            var novaData = date.substring(0, date.length - 2); // remove o dia na data atual 
+            novaData = novaData + novoDia.toString() // acrescenta um dia a mais , na nova data 
+            return novaData;
+        }
+
+        // generate voucher
+        function generateVoucher() {
+            var call = "generate"
+            $.ajax({
+                url: "/admin/_vales/voucherNovo.php",
+                type: "POST",
+                // dataType: "text",
+                data: {
+                    call: call
+                },
+                // contentType: false,
+                cache: false,
+                //processData: false,
+                success: function(response) {
+
+                    if (response != "") {
+                        document.getElementById("cdVouhcer").value = response
+                        // alert(document.getElementById("cdVouhcer").value)
+                    } else {
+                        alert("ERror")
+                    }
+                },
+                error: function(xhr) {
+                    //alert(ajaxContext.responseText)
+
+                    console.log(xhr.status)
+                    console.log(xhr.statusText)
+                    console.log(xhr.readyState)
+                    console.log(xhr.responseText)
+                    alert(xhr.responseText)
+
+                }
+            });
+        }
+        $(document).ready(function() {
+
+            generateVoucher()
+
+        })
+
+
+
+        function onlyNumberKey(evt) {
+            // Only ASCII character in that range allowed
+            var ASCIICode = (evt.which) ? evt.which : evt.keyCode
+            if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
+                return false;
+            return true;
         }
 
 
-        /*function setingDateFim_v2(this){
-    	    
-    	    var inicio = input.value;
-			inicio = inicio.replace("-", ",");
-			inicio = inicio.replace("-", ",");
-		//	$('#CALENDARIO2').datepicker('option', 'minDate', new Date(inicio));
-    	    
-    	}*/
+        function clearField() {
 
-        /* function getDate( element ) {
-      var date;
-      try {
-        date = $.datepicker.parseDate( dateFormat, element.value );
-      } catch( error ) {
-        date = null;
-      }
- 
-      return date;
-    }*/
+            //form.reset(); CALENDARIO
+            //$('#formVoucher').val("");
+            $('#CALENDARIO').val("");
+            $('#CALENDARIO2').val("");
+            $('#cdVouhcer').val("");
+            $('#descrID').val("");
+            $('#idName').val("");
+
+
+        }
+
+        // add voucher 
+        $("#formVoucher").on('submit', (function(e) {
+            //mostrar('LOADING');
+            e.preventDefault();
+            $.ajax({
+                url: "/admin/_vales/voucherNovo.php",
+                type: "POST",
+                data: new FormData(this),
+                contentType: false, // The content type used when sending data to the server. Default is: "application/x-www-form-urlencoded"
+                cache: false,
+                processData: false, // To send DOMDocument or non processed data file it is set to false (i.e. data should not be in the form of string)
+                success: function(data) {
+
+                    var jsonRetorna = $.parseJSON(data);
+                    var result = jsonRetorna['result'];
+                    var error = jsonRetorna['error'];
+
+                    if (result == "adicionado") {
+                        mostrar('GUARDAR');
+                        $('#formVoucher').trigger("reset");
+
+                    } else {
+
+                        switch (error) {
+                            case 'existe':
+                                alert("Voucher existe ! Deve Criar outro.");
+                                break;
+                            case 'empty':
+                                alert("Deve prencher os Campos !");
+                                break;
+                            default:
+                                alert("failure dataBase ...");
+                                break;
+                        }
+
+                    }
+                }
+            });
+        }));
     </script>
 </body>
 
