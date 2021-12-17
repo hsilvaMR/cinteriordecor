@@ -348,8 +348,7 @@
 
         // add  voucher
         $("#formVoucher").on('submit', (function(e) {
-            //mostrar('LOADING');
-            alert("inside form edit");
+
             e.preventDefault();
             $.ajax({
                 url: "/admin/_vales/voucherNovo.php",

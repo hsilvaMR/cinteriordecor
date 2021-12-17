@@ -52,7 +52,7 @@
                                 <td><? echo $status ?> </td>
                                 <td style="text-align: center;">
                                     <a href="/admin/voucherAction/<? echo $id; ?>" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
-                                    <span class="opcoes" onclick="mostrar('APAGAR',<? echo $id; ?>);"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
+                                    <span class="opcoes" onclick="mostrar('APAGAR_voucher',<? echo $id; ?>);"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
                                 </td>
                             </tr>
                         <? } ?>
@@ -64,6 +64,20 @@
         </div>
     </div>
 
+    <!-- MODALS voucher -->
+    <div id="APAGAR_voucher" class="modal">
+        <div class="modalFundo" onClick="esconder('APAGAR_voucher');"></div>
+        <span class="modalClose lnr lnr-cross-circle" onClick="esconder('APAGAR_voucher');"></span>
+        <div class="modalSize">
+            <div class="modalHead">Apagar</div>
+            <div class="modalBody">Tem a certeza que deseja apagar o voucher?</div>
+            <div class="modalFoot">
+                <button class="btV modalBt" name="sim" onclick="apagarVocuher()">SIM</button>
+                <button class="btA modalBt" name="nao" onclick="esconder('APAGAR_voucher');">NÃO</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         $(document).keyup(function(e) {
             if (e.keyCode == 27) {
@@ -71,28 +85,38 @@
             }
         });
 
-        function apagar() {
+        function apagarVocuher() {
+            var id_del = localStorage.getItem("id_del");
             var call = "delete"
-            $.post("/admin/_vales/voucherNovo.php", {
-                    id: id_del,
+            $.ajax({
+                url: "/admin/_vales/voucherNovo.php",
+                type: "POST",
+                data: {
+
+                    id_del: id_del,
                     call: call
-                })
-                .done(function(data) {
+                },
+                cache: false,
+                success: function(data) {
+
                     var jsonRetorna = $.parseJSON(data);
                     var result = jsonRetorna['result'];
                     if (result == "delete") {
 
-                        $('#linha_' + id).css("display", "none");
-                        esconder('APAGAR');
-                        $.notific8('Apagado com sucesso.', {
+                        //alert("removido com sucesso meu ID : " + id_del )
+                        $('#linha_' + id_del).css("display", "none");
+                        esconder('APAGAR_voucher');
+                        $.notific8('voucher removido com sucesso.', {
                             heading: 'Apagado'
                         });
+                        //localStorage.removeItem("id_del");
                     } else {
 
                         alert("delete error...")
                     }
+                }
 
-                });
+            })
         }
     </script>
 </div>
