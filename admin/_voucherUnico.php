@@ -7,7 +7,7 @@
                     <thead>
                         <tr>
                             <th class="none"></th>
-                            <th class="compMin">#&ensp;</th>
+                            <th class="compMin">ID&ensp;</th>
                             <th>Nome</th>
                             <th>Descrição</th>
                             <th>Codigo</th>
@@ -51,8 +51,8 @@
                                 <td><? echo $tipo ?></td>
                                 <td><? echo $status ?> </td>
                                 <td style="text-align: center;">
-                                    <a href="#" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
-                                    <span class="opcoes"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
+                                    <a href="/admin/voucherAction/<? echo $id; ?>" class="opcoes"><span class="lnr lnr-pencil"></span>&nbsp;Editar</a>&nbsp;&nbsp;
+                                    <span class="opcoes" onclick="mostrar('APAGAR',<? echo $id; ?>);"><i class="lnr lnr-trash"></i>&nbsp;Apagar</span>
                                 </td>
                             </tr>
                         <? } ?>
@@ -63,4 +63,36 @@
             <div class="clear"></div>
         </div>
     </div>
+
+    <script>
+        $(document).keyup(function(e) {
+            if (e.keyCode == 27) {
+                esconder('APAGAR');
+            }
+        });
+
+        function apagar() {
+            var call = "delete"
+            $.post("/admin/_vales/voucherNovo.php", {
+                    id: id_del,
+                    call: call
+                })
+                .done(function(data) {
+                    var jsonRetorna = $.parseJSON(data);
+                    var result = jsonRetorna['result'];
+                    if (result == "delete") {
+
+                        $('#linha_' + id).css("display", "none");
+                        esconder('APAGAR');
+                        $.notific8('Apagado com sucesso.', {
+                            heading: 'Apagado'
+                        });
+                    } else {
+
+                        alert("delete error...")
+                    }
+
+                });
+        }
+    </script>
 </div>
