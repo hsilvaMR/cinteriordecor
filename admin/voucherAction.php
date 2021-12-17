@@ -19,14 +19,20 @@
         $url = $_SERVER['REQUEST_URI'];
         $urlPartes = explode("/", $url);
         $id = urldecode($urlPartes[3]);
-        $existe = mysqli_num_rows(mysqli_query($lnk, "SELECT * FROM vales_desconto WHERE id='$id'"));
-        if ($existe) {
-            extract(mysqli_fetch_array(mysqli_query($lnk, "SELECT * FROM vales_desconto WHERE id='$id'")));
+
+        // $existe = mysqli_num_rows(mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE id='$id'  LIMIT 1"));
+
+        $query = mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE id='$id' LIMIT 1");
+        $row = mysqli_fetch_assoc($query);
+
+        if (!empty($row['codigo'])) {
+
+            //extract(mysqli_fetch_array(mysqli_query($lnk, "SELECT * FROM vales_desconto WHERE id='$id'")));
             $id_url = urldecode($urlPartes[3]);
         }
 
         $sep = 17;
-        if (!$existe) {
+        if (!$row) {
             $sub = 17.2;
         }
         include '_menu.php';
@@ -35,7 +41,7 @@
         <div class="conteudo">
             <div class="linha">
                 <div class="titulo">
-                    <h1><? if ($existe) {
+                    <h1><? if ($row) {
                             echo "Editar";
                         } else {
                             echo "Novo";
@@ -48,49 +54,67 @@
                 </div>
             </div>
 
-            <!-- FORMULARIO -->
+            <!-- FORMULARIO  formEdit -->
             <div class="linha">
                 <div class="coluna1">
                     <div class="corpo">
 
-                        <form id="formVoucher" method="post" enctype="multipart/form-data">
-                            <input type="hidden" name="call" value="add">
-                            <input type="hidden" name="id" value="<? if ($existe) {
-                                                                        echo $id_url;
+                        <form id="<? if ($id) {
+                                        echo "formEdit";
+                                    } else {
+                                        echo "formVoucher";
+                                    } ?>" method="post" enctype="multipart/form-data">
+                            <input type="hidden" name="call" value="<? if ($id) {
+                                                                        echo "edit";
+                                                                    } else {
+                                                                        echo "add";
+                                                                    } ?>">
+                            <input type="hidden" name="id" value="<? if ($row) {
+                                                                        echo  $id;
                                                                     } ?>">
 
                             <div class="corpoCima">
                                 <div class="grupo">
                                     <div class="grupoEsq">Nome:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" id="idName" name="nome" value="<? echo $nome ?>" autofocus placeholder='Designação Voucher'>
+                                        <input type="text" class="inP" id="idName" name="nome" value="<? if ($row) {
+                                                                                                            echo $row['nome'];
+                                                                                                        } ?>" autofocus placeholder='Designação Voucher'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Descrição:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" id="descrID" name="descricao" value="<? echo $nome ?>" autofocus placeholder='Descrição'>
+                                        <input type="text" class="inP" id="descrID" name="descricao" value="<? if ($row) {
+                                                                                                                echo $row['descricao'];
+                                                                                                            } ?>" autofocus placeholder='Descrição'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Código:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" id="cdVouhcer" name="codigo" readonly value="<? echo $nome ?>" autofocus placeholder='Código do Voucher'>
+                                        <input type="text" class="inP" id="cdVouhcer" name="codigo" readonly value="<? if ($row) {
+                                                                                                                        echo $row['codigo'];
+                                                                                                                    } ?>" autofocus placeholder='Código do Voucher'>
                                     </div>
                                 </div>
 
                                 <div class="grupo">
                                     <div class="grupoEsq">Valor:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" maxlength="6" name="valor" onkeypress="return onlyNumberKey(event)" value="<? echo $nome ?>" autofocus placeholder='Valor do voucher'>
+                                        <input type="text" class="inP" maxlength="6" name="valor" onkeypress="return onlyNumberKey(event)" value="<? if ($row) {
+                                                                                                                                                        echo $row['valor'];
+                                                                                                                                                    } ?>" autofocus placeholder='Valor do voucher'>
                                     </div>
                                 </div>
                                 <div class="grupo">
                                     <div class="grupoEsq">Incio:</div>
                                     <div class="grupoDir">
-                                        <input type="text" class="inP" name="inicio" id="CALENDARIO" maxlength="10" value="" onchange="settingCalendario()">
+                                        <input type="text" class="inP" name="inicio" id="CALENDARIO" maxlength="10" value="<? if ($row) {
+                                                                                                                                echo $row['inicio'];
+                                                                                                                            } ?>" onchange="settingCalendario()">
                                     </div>
                                 </div>
 
@@ -98,7 +122,9 @@
                                     <div class="grupoEsq">Fim:</div>
                                     <div class="grupoDir">
 
-                                        <input type="text" class="inP" name="fim" id="CALENDARIO2" maxlength="10" value="">
+                                        <input type="text" class="inP" name="fim" id="CALENDARIO2" maxlength="10" value="<? if ($row) {
+                                                                                                                                echo $row['fim'];
+                                                                                                                            } ?>">
                                     </div>
                                 </div>
 
@@ -109,13 +135,13 @@
 
                                         <select id="history" class="seL" name="tipo">
                                             <option class="selS" disabled selected>Tipo de Voucher</option>
-                                            <option class="selS" value="vale" <? if ($tipo == 'vale') {
+                                            <option class="selS" value="vale" <? if ($row['tipo'] == 'vale') {
                                                                                     echo "selected";
                                                                                 } ?>>Vale</option>
-                                            <option class="selS" value="cupao" <? if ($tipo == 'cupao') {
+                                            <option class="selS" value="cupao" <? if ($row['tipo'] == 'cupao') {
                                                                                     echo "selected";
                                                                                 } ?>>Cupão </option>
-                                            <option class="selS" value="family" <? if ($tipo == 'family') {
+                                            <option class="selS" value="family" <? if ($row['tipo'] == 'family') {
                                                                                     echo "selected";
                                                                                 } ?>>Family</option>
 
@@ -254,11 +280,21 @@
         }
         $(document).ready(function() {
 
-            generateVoucher()
+            var inicio = "<? echo $id; ?>"
+            var id = "<? echo $row['id'];  ?>"
+
+            if (inicio == "") {
+
+                generateVoucher()
+            } else {
+
+
+                // alert("id: "+ id)
+            }
+
+
 
         })
-
-
 
         function onlyNumberKey(evt) {
             // Only ASCII character in that range allowed
@@ -269,22 +305,51 @@
         }
 
 
-        function clearField() {
 
-            //form.reset(); CALENDARIO
-            //$('#formVoucher').val("");
-            $('#CALENDARIO').val("");
-            $('#CALENDARIO2').val("");
-            $('#cdVouhcer').val("");
-            $('#descrID').val("");
-            $('#idName').val("");
+        // update voucher 
+        $("#formEdit").on('submit', (function(e) {
+
+            e.preventDefault();
+            $.ajax({
+                url: "/admin/_vales/voucherNovo.php",
+                type: "POST",
+                data: new FormData(this),
+                contentType: false,
+                cache: false,
+                processData: false,
+                success: function(data) {
+
+                    var jsonRetorna = $.parseJSON(data);
+                    var result = jsonRetorna['result'];
+                    var error = jsonRetorna['error'];
+
+                    if (result == "update") {
+                        alert("UPDATE FIELD");
+                        $('#formEdit').trigger("reset");
+                    } else {
+
+                        switch (error) {
+                            case 'empty_id':
+                                alert("empty ID .");
+                                break;
+                            case 'empty_field':
+                                alert("empty FIELD .");
+                                break;
+                            default:
+                                alert("failure dataBase ...");
+                                break;
+                        }
+
+                    }
+                }
+            });
+        }));
 
 
-        }
-
-        // add voucher 
+        // add  voucher
         $("#formVoucher").on('submit', (function(e) {
             //mostrar('LOADING');
+            alert("inside form edit");
             e.preventDefault();
             $.ajax({
                 url: "/admin/_vales/voucherNovo.php",
@@ -303,6 +368,10 @@
                         mostrar('GUARDAR');
                         $('#formVoucher').trigger("reset");
 
+                    } else if (result == "update") {
+
+                        //alert(result.":".jsonRetorna['id']);  
+                        $('#formVoucher').trigger("reset");
                     } else {
 
                         switch (error) {
@@ -311,6 +380,9 @@
                                 break;
                             case 'empty':
                                 alert("Deve prencher os Campos !");
+                                break;
+                            case 'empty_id':
+                                alert(" send id update ... !");
                                 break;
                             default:
                                 alert("failure dataBase ...");

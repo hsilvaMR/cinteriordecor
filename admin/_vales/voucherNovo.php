@@ -25,7 +25,7 @@ session_start();
     }
     else{
         
-         $query = mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE codigo='$codigo' LIMIT 1");
+        $query = mysqli_query($lnk, "SELECT * FROM voucher_unico WHERE codigo='$codigo' LIMIT 1");
         $row = mysqli_fetch_assoc($query);
 
         if (empty( $row['codigo'])) {
@@ -50,11 +50,51 @@ function editarVoucher()
 {
 
     global $lnk;
+    $id = $_POST["id"];
+    $nome = $_POST["nome"];
+    $descricao = trim($_POST["descricao"]);
+    $codigo = trim($_POST["codigo"]);
+    $valor = $_POST["valor"];
+    $inicio = $_POST["inicio"];
+    $fim = $_POST["fim"];
+    $tipo = $_POST["tipo"];
+    $status = "valido";
+    $response = ['error'=>'init', 'result'=>'init', 'id'=>'init'];
+    
+     if(empty($nome) || empty($valor)  || empty($inicio) || empty($fim) || empty($codigo) ){
+        
+         $response['error']= "empty_field";
+     }
+     else{
+         
+        if($id){
+       
+       	   mysqli_query($lnk,"UPDATE voucher_unico SET nome='$nome',descricao='$descricao',codigo='$codigo',valor='$valor',inicio='$inicio',tipo='$tipo',status='$status',fim='$fim' WHERE id='$id'");
+    	   $id = mysqli_insert_id($lnk);
+    	   $response['result']= "update";
+    	   $response['id'] = $id; 
+       
+        }
+        else{
+          
+            $response['error']= "empty_id"; 
+        }
+     
+     }
+     
+     echo json_encode($response);
+ 
 }
 
 function removerVoucher()
 {
     global $lnk;
+    $id = $_POST["id"];
+    
+      if($id){
+          
+      }
+    
 }
 
 
