@@ -240,7 +240,12 @@
 
     function setingDateFim_V3() {
 
-        var dataInicio = $.datepicker.formatDate("yy-mm-dd", $("#CALENDARIO").datepicker("getDate"))
+        var dateIni = $('#CALENDARIO').datepicker('getDate');
+        var date2 = new Date('yy-mm-dd')
+        date2 = date2.getTime()
+        date2.setDate(dateIni.getDate() + 1)
+
+        var dataInicio = $.datepicker.formatDate("yy-mm-dd", date2)
 
         if (dataInicio != "") {
 
